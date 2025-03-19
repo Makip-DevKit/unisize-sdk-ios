@@ -28,7 +28,6 @@ Xcode Swift で開発された iOS 用アプリケーションのプロジェク
   実装方法など、詳しくは付属のドキュメント「unisize のコンバージョンの実装について」をご覧ください。
 
 ## 導入手順
-
 ### Swift Package Manager を使用して導入
 
 1. Xcode プロジェクトで、File > Swift Packages > Add Package Dependency... を選択します。
