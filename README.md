@@ -41,7 +41,6 @@ Xcode Swift で開発された iOS 用アプリケーションのプロジェク
 3. Xcode を開き、unisizeSDK を追加するアプリのプロジェクトを開きます。
 4. プロジェクトの設定 →「General」タブを開き、「Frameworks, Libraries, and Embedded Content」セクションに移動します。
 5. 「+」ボタンをクリックし、unisizeSDK.xcframework を選択してプロジェクトに追加します。
-6. SDK を使用するソースファイルの先頭（import 文のある箇所）に「import unisizeSDK」を記述します。
 
 ## バージョン履歴
 
