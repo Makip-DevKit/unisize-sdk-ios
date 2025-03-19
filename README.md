@@ -27,6 +27,22 @@ Xcode Swift で開発された iOS 用アプリケーションのプロジェク
   コンバージョンの実装については、アプリの設計、構造に応じで、unisizeSDK の UnisizeCvTag Class を使用する方法と、Web 版 unisize の CV タグを利用する方法の 2 種類の実装方法があります。<br>
   実装方法など、詳しくは付属のドキュメント「unisize のコンバージョンの実装について」をご覧ください。
 
+## 導入手順
+
+### Swift Package Manager を使用して導入
+
+1. Xcode プロジェクトで、File > Swift Packages > Add Package Dependency... を選択します。
+2. 下記のGitHub リポジトリの URL を入力して、パッケージをプロジェクトに追加します。<br>`https://github.com/Makip-DevKit/unisize-sdk-ios`
+  
+### zip ファイルから xcframework を導入
+
+1. https://github.com/Makip-DevKit/unisize-sdk-ios から zip 形式でダウンロード、解凍します。
+2. zipファイルを解凍して、unisizeSDK.xcframeworkを、導入するプロジェクトのディレクトリへコピー（または移動）します。
+3. Xcode を開き、unisizeSDK を追加するアプリのプロジェクトを開きます。
+4. プロジェクトの設定 →「General」タブを開き、「Frameworks, Libraries, and Embedded Content」セクションに移動します。
+5. 「+」ボタンをクリックし、unisizeSDK.xcframework を選択してプロジェクトに追加します。
+6. SDK を使用するソースファイルの先頭（import 文のある箇所）に「import unisizeSDK」を記述します。
+
 ## バージョン履歴
 
 ### v1.5.5
