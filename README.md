@@ -9,7 +9,12 @@ unisizeSDK for iOS Swift は、Xcode Swift で開発された iOS 向け EC ア�
 unisize は、オンラインでのショッピング体験を向上させるためのサービスです。ユーザーの体型と好みに基づいて最適なサイズを推薦し、EC サイト上でのサイズ選びの不安を解消します。  
 ユーザーは簡単な質問に答えることで個別に最適なサイズ推薦を受けられ、返品率の削減にも貢献します。  
 国内外の多くの EC サイトで利用されており、ユーザーフレンドリーなインターフェース、精度の高いサイズレコメンドを提供しています。  
+  
+## ドキュメント
 
+最新のドキュメント、SDK リファレンスは GitHub の Wiki をご覧ください。  
+[https://github.com/Makip-DevKit/unisize-sdk-doc/](https://github.com/Makip-DevKit/unisize-sdk-doc/)
+  
 ## unisizeSDK の対応 OS、バージョン
 
 iOS 15、またはそれ以降
@@ -51,12 +56,6 @@ Xcode Swift で開発された iOS 用アプリケーションのプロジェク
 - 2025年2月にリリースした3D表示機能に対応しました。対象商品でアンケート結果画面でシルエットの3D表示が可能になりました。
 - アンケート画面の表示を微調整しました。
 - 内部処理の最適化
-
-## ドキュメント
-
-最新のドキュメント、SDK リファレンスは GitHub の Wiki をご覧ください。  
-[https://github.com/Makip-DevKit/unisize-sdk-doc/](https://github.com/Makip-DevKit/unisize-sdk-doc/)
-
 
 ## その他
 - unisizeSDK導入に関しての詳細は、弊社担当営業までご相談ください。
