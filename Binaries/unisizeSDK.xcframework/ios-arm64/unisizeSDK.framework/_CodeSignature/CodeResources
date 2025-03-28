@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/unisizeSDK-Swift.h</key>
 		<data>
-		GW4uEyupcRzmDxpTjUSvXK4gPeY=
+		KYnkzzTnZt2zB0isGx1OC4fGpIE=
 		</data>
 		<key>Headers/unisizeSDK.h</key>
 		<data>
-		Do874/eOzkEjz4bXtFfGNJGOh24=
+		i1dyEe0PLJaPS/p69U4MJZRVz6E=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L2Fe+lmluoXcXYTp9XrntjtKCC4=
+		XyzIaKrNguZz1i+hETYevyLYQKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		eOts/xBfojIvXEueT3/mNs29KGY=
+		jlrnsApdtgTXnbWuUjkBK1EZkzo=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5zR6K0NYWRPjoeiknQ7iXhfk0hs=
+		Fcy8r3XjBFyN4ZpEKJZieS3VtUw=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		eOts/xBfojIvXEueT3/mNs29KGY=
+		jlrnsApdtgTXnbWuUjkBK1EZkzo=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/n8hs+kKHz9XeiVEk1bCxXYpVmQ=
+		QzCqIijO4WKvoA7K7V9ySapwVjo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fwf1Kc461QDqBHPASneTF3bBmu3fiismQ2Xp6ii9vCo=
+			et3AsQXkwuchFm7ymwAJRKPgh9cuFbAkrF1S6CAdlO8=
 			</data>
 		</dict>
 		<key>Headers/unisizeSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ujo+M5Zj6khkZjn/HZKCjCeTlg4/T+KvcFZ/2BXDXeI=
+			yNyL5L4H2Fcf9zk01ulO4XK63MU9EMQAjXUVYV4EXbU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -75,28 +75,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RrS9T34aL06SSSKNupjNk3N0LhkGYKjUqL8tQEMgh5U=
+			T2cNM+9Uethwtk9crG/ZFgwducjyG6R+ULbvao8x6ms=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ot/GtZHc22QCeKr6IOHQyWQTdTz9Pu3hU3HjyKrZU4=
+			ozzQD03HCsfGUryPgc1XpSSNqN/TduuTzsxnLqIbg4E=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RrS9T34aL06SSSKNupjNk3N0LhkGYKjUqL8tQEMgh5U=
+			T2cNM+9Uethwtk9crG/ZFgwducjyG6R+ULbvao8x6ms=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKPjnQKRIYN8Qb0MvgpmKSheyX7BS7kh6WI8sPo6Ybk=
+			910KEaD8fFF9Kj3nyzqfGtaTJqTUeuOwMBYiiuBebqI=
 			</data>
 		</dict>
 	</dict>

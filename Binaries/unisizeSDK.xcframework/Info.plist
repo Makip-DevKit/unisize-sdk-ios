@@ -38,11 +38,11 @@
 	</array>
 	<key>CFBundlePackageType</key>
 	<string>XFWK</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.5.5</string>
-	<key>CFBundleVersion</key>
-	<string>20250312.02</string>
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>250327.02</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
 </dict>
 </plist>
