@@ -102,7 +102,7 @@ extension unisizeSDK.UnisizeEnquete : WebKit.WKUIDelegate {
   @objc func unisizeEnqueteViewController(_ enquete: unisizeSDK.UnisizeEnqueteViewController, didFail: unisizeSDK.UnisizeError)
   @objc func unisizePostMessage(_ enquete: unisizeSDK.UnisizeEnqueteViewController, messageBody: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UnisizeEnqueteViewController : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UnisizeEnqueteViewController : UIKit.UIViewController, UIKit.UIAdaptivePresentationControllerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public var enqueteRect: UIKit.UIView!
   @objc @_Concurrency.MainActor @preconcurrency public var enableWebViewLog: Swift.Bool
   @objc @_Concurrency.MainActor @preconcurrency public var enablePrintLog: Swift.Bool
@@ -121,6 +121,8 @@ extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDel
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func unisizeEnquete(_ enquete: unisizeSDK.UnisizeEnquete, didFinish message: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func unisizeEnquete(_ enquete: unisizeSDK.UnisizeEnquete, didFail errorObj: unisizeSDK.UnisizeError)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func unisizePostMessage(_ enquete: unisizeSDK.UnisizeEnquete, messageBody: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerShouldDismiss(_ presentationController: UIKit.UIPresentationController) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerDidAttemptToDismiss(_ presentationController: UIKit.UIPresentationController)
 }
 @objc @objcMembers public class UnisizeError : Foundation.NSError {
   public enum ErrorCode : Swift.Int {

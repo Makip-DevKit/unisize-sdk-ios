@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/unisizeSDK-Swift.h</key>
 		<data>
-		KYnkzzTnZt2zB0isGx1OC4fGpIE=
+		Q0R7lTu7T4G+2kQ3WVrLI0JYqyU=
 		</data>
 		<key>Headers/unisizeSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XyzIaKrNguZz1i+hETYevyLYQKE=
+		MW7YQRCjc7F+svckpGkN8I3mOKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jlrnsApdtgTXnbWuUjkBK1EZkzo=
+		++vHnjgJynFUVm98P5iwDZiQi6M=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jlrnsApdtgTXnbWuUjkBK1EZkzo=
+		++vHnjgJynFUVm98P5iwDZiQi6M=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QzCqIijO4WKvoA7K7V9ySapwVjo=
+		c6RhSqKm1wW13/JyRZv8eh4vkVQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			et3AsQXkwuchFm7ymwAJRKPgh9cuFbAkrF1S6CAdlO8=
+			wkj16tnOzOsuazXKMOSKzK0IwGGq6Aa8f/oGjz4V3xw=
 			</data>
 		</dict>
 		<key>Headers/unisizeSDK.h</key>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2cNM+9Uethwtk9crG/ZFgwducjyG6R+ULbvao8x6ms=
+			/ibNHZlYhoU5QZX93Zz3ka99NF5PX/QGaa3M7BJ20oc=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2cNM+9Uethwtk9crG/ZFgwducjyG6R+ULbvao8x6ms=
+			/ibNHZlYhoU5QZX93Zz3ka99NF5PX/QGaa3M7BJ20oc=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			910KEaD8fFF9Kj3nyzqfGtaTJqTUeuOwMBYiiuBebqI=
+			DnoGT/ne6L40zHi8d1k0R4mZYrKsLoCGjRqNGmuxWsk=
 			</data>
 		</dict>
 	</dict>

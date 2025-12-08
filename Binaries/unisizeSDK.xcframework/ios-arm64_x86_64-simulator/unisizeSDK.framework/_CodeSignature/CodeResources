@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/unisizeSDK-Swift.h</key>
 		<data>
-		C8jsupyyoRdi7tgnrcrzEae2Yek=
+		MfXH1tZWb2FW7Bi2/ywwe8KPWCo=
 		</data>
 		<key>Headers/unisizeSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uXlm4Y/D3ZlDf+qaASVh4mHDqaE=
+		6RCbcBIeIYtxKabmbKgSxinO5N4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JL/saSAPLYuyyJfhqhAxph5pcBI=
+		yIokO+4i9NHCP+1Ht6ZVi595/A8=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JL/saSAPLYuyyJfhqhAxph5pcBI=
+		yIokO+4i9NHCP+1Ht6ZVi595/A8=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gtG//ZLFmk3PJsbk4W7ob9syqOo=
+		8HXay2Jzl0iPNR18cdck8APYLX4=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T43DiZ7I4yWGRixQg1CqZee2hAs=
+		hu1hb+DNmjq+Qj5YeHCmZFaARbw=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T43DiZ7I4yWGRixQg1CqZee2hAs=
+		hu1hb+DNmjq+Qj5YeHCmZFaARbw=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		48NOd+FKtdyjH4IA5Z5SgBrCX04=
+		XtcxFEZVGS3makjcKLZ1ftoGb3k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V506Ct3rj5q5XxDTRaZ2CVZ9us8IYwMkIHfBd/Rp88U=
+			dhNc9LXOkmYfWrf7qR5tGYED1HmvgsjnKyJYEIYwqd8=
 			</data>
 		</dict>
 		<key>Headers/unisizeSDK.h</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQ+xUdkODDR89fFaIF7gRR7zIaiiFQsCOhz4h7MhReM=
+			/sofs8Hv9xOUTZDWI9jpEl0NpeciftNGC/X+LAAQEXs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQ+xUdkODDR89fFaIF7gRR7zIaiiFQsCOhz4h7MhReM=
+			/sofs8Hv9xOUTZDWI9jpEl0NpeciftNGC/X+LAAQEXs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9aOP6lBe7+QmSPTD2zOAbSe0NF0mclUnbViusYtyxQ=
+			f2yMFqoyoasTkPOl41MBOwmW5ss7gMq8LI39VymaEfs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kNv/cz4JLA3e7+MYdXfvA3o2bozkv3mAo2ua8JQylU=
+			LPjDCEqEtNrUxsmRBZNa57djyIM2h6uPk4NL3Ar1IDs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kNv/cz4JLA3e7+MYdXfvA3o2bozkv3mAo2ua8JQylU=
+			LPjDCEqEtNrUxsmRBZNa57djyIM2h6uPk4NL3Ar1IDs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nIv1LB9PICDlkzB068J7nWqg4xywp2/gIax1gpqusVs=
+			kqzRdHBppFiN1Nq3pci3pQIZahMEMuS/B7wT4zTFJyE=
 			</data>
 		</dict>
 	</dict>

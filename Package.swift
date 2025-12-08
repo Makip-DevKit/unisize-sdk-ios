@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "unsizeSDK",
+    name: "unisizeSDK",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "unsizeSDK",
-            targets: ["unsizeSDK"]),
+            name: "unisizeSDK",
+            targets: ["unisizeSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "unsizeSDK",
+            name: "unisizeSDK",
             path: "./Binaries/unisizeSDK.xcframework"
         )
     ]

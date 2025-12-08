@@ -472,7 +472,7 @@ SWIFT_PROTOCOL("_TtP10unisizeSDK22UnisizeEnqueteDelegate_")
 @class NSBundle;
 
 SWIFT_CLASS("_TtC10unisizeSDK28UnisizeEnqueteViewController")
-@interface UnisizeEnqueteViewController : UIViewController
+@interface UnisizeEnqueteViewController : UIViewController <UIAdaptivePresentationControllerDelegate>
 @property (nonatomic, strong) UIView * _Null_unspecified enqueteRect;
 @property (nonatomic) BOOL enableWebViewLog;
 @property (nonatomic) BOOL enablePrintLog;
@@ -487,11 +487,14 @@ SWIFT_CLASS("_TtC10unisizeSDK28UnisizeEnqueteViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIPresentationController;
 
 @interface UnisizeEnqueteViewController (SWIFT_EXTENSION(unisizeSDK)) <UnisizeEnqueteDelegate>
 - (void)unisizeEnquete:(UnisizeEnquete * _Nonnull)enquete didFinish:(NSString * _Nonnull)message;
 - (void)unisizeEnquete:(UnisizeEnquete * _Nonnull)enquete didFail:(UnisizeError * _Nonnull)errorObj;
 - (void)unisizePostMessage:(UnisizeEnquete * _Nonnull)enquete messageBody:(NSString * _Nonnull)messageBody;
+- (BOOL)presentationControllerShouldDismiss:(UIPresentationController * _Nonnull)presentationController SWIFT_WARN_UNUSED_RESULT;
+- (void)presentationControllerDidAttemptToDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 
@@ -997,7 +1000,7 @@ SWIFT_PROTOCOL("_TtP10unisizeSDK22UnisizeEnqueteDelegate_")
 @class NSBundle;
 
 SWIFT_CLASS("_TtC10unisizeSDK28UnisizeEnqueteViewController")
-@interface UnisizeEnqueteViewController : UIViewController
+@interface UnisizeEnqueteViewController : UIViewController <UIAdaptivePresentationControllerDelegate>
 @property (nonatomic, strong) UIView * _Null_unspecified enqueteRect;
 @property (nonatomic) BOOL enableWebViewLog;
 @property (nonatomic) BOOL enablePrintLog;
@@ -1012,11 +1015,14 @@ SWIFT_CLASS("_TtC10unisizeSDK28UnisizeEnqueteViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIPresentationController;
 
 @interface UnisizeEnqueteViewController (SWIFT_EXTENSION(unisizeSDK)) <UnisizeEnqueteDelegate>
 - (void)unisizeEnquete:(UnisizeEnquete * _Nonnull)enquete didFinish:(NSString * _Nonnull)message;
 - (void)unisizeEnquete:(UnisizeEnquete * _Nonnull)enquete didFail:(UnisizeError * _Nonnull)errorObj;
 - (void)unisizePostMessage:(UnisizeEnquete * _Nonnull)enquete messageBody:(NSString * _Nonnull)messageBody;
+- (BOOL)presentationControllerShouldDismiss:(UIPresentationController * _Nonnull)presentationController SWIFT_WARN_UNUSED_RESULT;
+- (void)presentationControllerDidAttemptToDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 
