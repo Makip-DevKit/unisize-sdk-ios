@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/unisizeSDK-Swift.h</key>
 		<data>
-		Q0R7lTu7T4G+2kQ3WVrLI0JYqyU=
+		0SJ3MZQ1E4A+T/VFTLCtwZyPq1E=
 		</data>
 		<key>Headers/unisizeSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MW7YQRCjc7F+svckpGkN8I3mOKY=
+		Qvt3R8Eh7lWKLZZqBQoa+llGPgo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		++vHnjgJynFUVm98P5iwDZiQi6M=
+		JlKED0snOAGeSvtorx4dKxWYn+A=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Fcy8r3XjBFyN4ZpEKJZieS3VtUw=
+		OLle8tjKjsneLDCR2ckM0xugyjE=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		++vHnjgJynFUVm98P5iwDZiQi6M=
+		JlKED0snOAGeSvtorx4dKxWYn+A=
 		</data>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		c6RhSqKm1wW13/JyRZv8eh4vkVQ=
+		fzjUQOTtAgin9lx/KeWx0wsk/dI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkj16tnOzOsuazXKMOSKzK0IwGGq6Aa8f/oGjz4V3xw=
+			r3yomHk9bOa/Jb5J/lJ8bEcoEukyFQ0iXsHphyURWKQ=
 			</data>
 		</dict>
 		<key>Headers/unisizeSDK.h</key>
@@ -75,28 +75,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ibNHZlYhoU5QZX93Zz3ka99NF5PX/QGaa3M7BJ20oc=
+			+Savvz1xO0SMVIysNz/7wTj03//EMS7ZRRTueXYSlWs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozzQD03HCsfGUryPgc1XpSSNqN/TduuTzsxnLqIbg4E=
+			sQTSHbKcyeB3WkdyUaTOm55eO6EB0TlbCY6jF/XuYHA=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ibNHZlYhoU5QZX93Zz3ka99NF5PX/QGaa3M7BJ20oc=
+			+Savvz1xO0SMVIysNz/7wTj03//EMS7ZRRTueXYSlWs=
 			</data>
 		</dict>
 		<key>Modules/unisizeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DnoGT/ne6L40zHi8d1k0R4mZYrKsLoCGjRqNGmuxWsk=
+			RhFBmyIrCj0IvggWFZWTgRDTAOyr5wve9Ky4lzgZWvw=
 			</data>
 		</dict>
 	</dict>

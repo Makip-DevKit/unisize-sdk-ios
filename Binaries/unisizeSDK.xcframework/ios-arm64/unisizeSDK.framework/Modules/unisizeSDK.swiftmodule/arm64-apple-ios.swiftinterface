@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name unisizeSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name unisizeSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreTelephony
 import Foundation
 import Swift
@@ -31,21 +31,31 @@ import _SwiftConcurrencyShims
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UnisizeBannerWebview : WebKit.WKWebView, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate, unisizeSDK.UnisizeEnqueteViewControllerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public var delegate: (any unisizeSDK.UnisizeBannerWebviewDelegate)?
   @objc @_Concurrency.MainActor @preconcurrency weak public var parentView: UIKit.UIViewController?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public func setupParam(parentView: UIKit.UIViewController, bannerType: Swift.String, bannerMode: Swift.String, cid: Swift.String, itm: Swift.String, cuid: Swift.String = "", lang: Swift.String = "ja", enableWebViewLog: Swift.Bool = true, enablePrintLog: Swift.Bool = true, sendErrorLog: Swift.Bool = true, delegate: (any unisizeSDK.UnisizeBannerWebviewDelegate)? = nil, customStyle: Swift.String = "")
+  #endif
   @objc @_Concurrency.MainActor @preconcurrency public func show()
   @objc @_Concurrency.MainActor @preconcurrency public func onEventOccurred(messageBody: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func close()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func unisizeEnqueteViewController(_ enquete: unisizeSDK.UnisizeEnqueteViewController, didFinish message: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func unisizeEnqueteViewController(_ enquete: unisizeSDK.UnisizeEnqueteViewController, didFail errorObj: unisizeSDK.UnisizeError)
   @_Concurrency.MainActor @preconcurrency @objc public func unisizePostMessage(_ enqueteView: unisizeSDK.UnisizeEnqueteViewController, messageBody: Swift.String)
 }
 extension unisizeSDK.UnisizeBannerWebview : UIKit.UIScrollViewDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
+  #endif
 }
 @objc public protocol UnisizeBannerDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func unisizeBanner(_ banner: unisizeSDK.UnisizeBanner, didFinish: Swift.String)
@@ -58,8 +68,12 @@ extension unisizeSDK.UnisizeBannerWebview : UIKit.UIScrollViewDelegate {
 @objc @_hasMissingDesignatedInitializers @objcMembers public class UnisizeBanner : ObjectiveC.NSObject, unisizeSDK.UnisizeBannerWebviewDelegate {
   @objc weak public var delegate: (any unisizeSDK.UnisizeBannerDelegate)?
   @objc weak public var parentView: UIKit.UIViewController?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(textBannerRect: UIKit.UIView? = nil, exBannerRect: UIKit.UIView? = nil, ciBannerRect: UIKit.UIView? = nil, parentView: UIKit.UIViewController, cid: Swift.String? = "", itm: Swift.String? = "", cuid: Swift.String? = "", lang: Swift.String? = "ja", enableWebViewLog: Swift.Bool = false, enablePrintLog: Swift.Bool = false, sendErrorLog: Swift.Bool = true, delegate: (any unisizeSDK.UnisizeBannerDelegate)? = nil, customStyle: Swift.String? = "")
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setupParam(cid: Swift.String? = "", itm: Swift.String? = "", cuid: Swift.String? = "", lang: Swift.String? = "")
+  #endif
   @objc public func reload()
   @objc deinit
   @objc public func close()
@@ -79,23 +93,35 @@ extension unisizeSDK.UnisizeBannerWebview : UIKit.UIScrollViewDelegate {
   @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any unisizeSDK.UnisizeEnqueteDelegate)?
   @objc @_Concurrency.MainActor @preconcurrency public var enqueteRect: UIKit.UIView
   @objc @_Concurrency.MainActor @preconcurrency public var webView: WebKit.WKWebView!
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public init(enqueteRect: UIKit.UIView, enableWebViewLog: Swift.Bool = false, enablePrintLog: Swift.Bool = false, sendErrorLog: Swift.Bool = true, delegate: (any unisizeSDK.UnisizeEnqueteDelegate)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @objc @_Concurrency.MainActor @preconcurrency public func reload()
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func close()
 }
 extension unisizeSDK.UnisizeEnquete : WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 extension unisizeSDK.UnisizeEnquete : UIKit.UIScrollViewDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
+  #endif
 }
 extension unisizeSDK.UnisizeEnquete : WebKit.WKUIDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  #endif
 }
 @objc public protocol UnisizeEnqueteViewControllerDelegate {
   @objc func unisizeEnqueteViewController(_ enquete: unisizeSDK.UnisizeEnqueteViewController, didFinish: Swift.String)
@@ -113,8 +139,12 @@ extension unisizeSDK.UnisizeEnquete : WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDelegate {
@@ -163,7 +193,9 @@ extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDel
     case unisizeCVTagResourceAccessError
     public func getMessage() -> Swift.String
     public func debugPrint()
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -181,7 +213,9 @@ extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDel
   @objc public var systemVer: Swift.String
   @objc public var other: Swift.String
   public init(errorCode: unisizeSDK.UnisizeError.ErrorCode, clientId: Swift.String = "", itemId: Swift.String = "", purchaseid: Swift.String = "", other: Swift.String = "", cuid: Swift.String = "", lang: Swift.String = "", viewType: Swift.String = "")
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc public func sendErrorLogging()
   @objc public func getJson() -> [Swift.String : Any]
   @objc public func getJsonString() -> Swift.String
@@ -193,7 +227,9 @@ extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDel
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class UnisizeCVTag : UIKit.UIView, WebKit.WKScriptMessageHandler {
   @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any unisizeSDK.UnisizeCVTagDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public init(cvTagRect: UIKit.UIView, cid: Swift.String, cuid: Swift.String? = "", purchaseid: Swift.String, itemnum: Swift.String? = "", itemid: Swift.String? = "", price: Swift.String? = "", size: Swift.String? = "", iteminfo: Swift.String? = "", iteminfojson: Swift.String? = "", regType: Swift.String? = "", enableWebViewLog: Swift.Bool = false, enablePrintLog: Swift.Bool = false, sendErrorLog: Swift.Bool = true, delegate: (any unisizeSDK.UnisizeCVTagDelegate)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @objc @_Concurrency.MainActor @preconcurrency public func reloadWebView()
   @objc @_Concurrency.MainActor @preconcurrency public func reload()
@@ -201,9 +237,15 @@ extension unisizeSDK.UnisizeEnqueteViewController : unisizeSDK.UnisizeEnqueteDel
   @objc @_Concurrency.MainActor @preconcurrency public func close()
 }
 extension unisizeSDK.UnisizeCVTag : WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
 }
 extension unisizeSDK.UnisizeEnquete : Swift.Sendable {}
 extension unisizeSDK.UnisizeError.ErrorCode : Swift.Equatable {}
